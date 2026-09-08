@@ -1,0 +1,8 @@
+<Weavers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FodyWeavers.xsd">
+  <Costura>
+    <!-- 禁用压缩，加快启动速度 -->
+    <DisableCompression>false</DisableCompression>
+    <!-- 不创建临时文件，直接在内存中加载 -->
+    <UseRuntimeReferenceAttribute>true</UseRuntimeReferenceAttribute>
+  </Costura>
+</Weavers>
